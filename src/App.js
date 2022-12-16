@@ -8,10 +8,10 @@ function App() {
     <div className='h-screen bg-[#131517]'>
       <Header />
       <div className='flex'>
-        <div className='w-3/12'>
+        <div className='w-72 px-4'>
           <Sidebar />
         </div>
-        <div className='w-9/12'>
+        <div className='flex-1'>
           <Content />
         </div>
       </div>
