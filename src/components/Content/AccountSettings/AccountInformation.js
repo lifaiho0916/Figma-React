@@ -1,9 +1,10 @@
 import React from 'react';
+import ResetPassword from './ResetPassword';
 
 const AccountInformation = () => {
   return (
-    <div className='mr-5 rounded-xl'>
-      <div className='bg-[#18191D] p-6'>
+    <div className='mr-5 '>
+      <div className='rounded-xl bg-[#18191D] p-6'>
         <h4 className='text-lg font-medium text-gray-200'>
           Account Information
         </h4>
@@ -177,6 +178,8 @@ const AccountInformation = () => {
             </div>
           </div>
         </div>
+
+        <ResetPassword />
       </div>
     </div>
   );
