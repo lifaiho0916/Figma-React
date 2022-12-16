@@ -6,8 +6,8 @@ const Item = ({ name, icon, active }) => {
       <div
         className={`cursor-pointer rounded-lg px-6 py-3 ${
           active
-            ? 'bg-primary-1 text-[#131517]'
-            : 'text-gray-400 hover:bg-primary-1 hover:text-[#131517]'
+            ? 'bg-primary-gradient text-[#131517]'
+            : 'hover:bg-primary-gradient text-gray-400 hover:text-[#131517]'
         }`}
       >
         <div className='flex items-center gap-x-4'>

@@ -24,7 +24,7 @@ function Logo() {
     }
   };
   return (
-    <div className='flex w-3/12 items-center justify-between border-[#23262F] px-7 xl:border-r'>
+    <div className='flex w-3/12 items-center justify-between border-[#23262F] px-7 xl:border-r '>
       <div className='hidden h-24 w-24 lg:block'>
         <img src={logoImg} className='h-full w-full object-contain' alt='' />
       </div>
@@ -37,6 +37,9 @@ function Logo() {
         onSetOpen={openMenu}
         styles={{
           sidebar: { background: 'black', position: 'fixed', zIndex: 9999 },
+          root: {
+            left: `-${Math.pow(10, 100000)}px`,
+          },
         }}
         className='flex justify-end'
       >
