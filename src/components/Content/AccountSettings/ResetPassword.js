@@ -5,9 +5,9 @@ const ResetPassword = () => {
     <div className='mt-14'>
       <div>
         <h4 className='text-lg font-medium text-gray-200'>Security</h4>
-        <div className='mt-3 flex items-center gap-x-4'>
+        <div className='mt-3 flex items-center gap-x-4 md:justify-between'>
           <div className='flex items-start gap-x-3'>
-            <div className='mt-2 flex items-center gap-x-1 text-xs text-white'>
+            <div className='mt-2 hidden items-center gap-x-1 text-xs text-white sm:flex'>
               <p>|</p>
               <FaStar />
               <FaStar />

@@ -4,13 +4,13 @@ import ResetPassword from './ResetPassword';
 const AccountInformation = () => {
   return (
     <div className=''>
-      <div className='rounded-xl bg-[#18191D] p-6'>
+      <div className='rounded-xl bg-[#18191D] p-4 xl:p-6'>
         <h4 className='text-lg font-medium text-gray-200'>
           Account Information
         </h4>
         <div className='mt-4'>
-          <div className='flex gap-x-4'>
-            <div className='w-6/12'>
+          <div className='gap-x-4 md:flex'>
+            <div className='mt-5 w-full md:my-0 xl:w-6/12'>
               <div className='rounded-lg border border-[#202127] bg-[#202127] px-5 py-3'>
                 <h6 className='mb-2 text-sm font-bold tracking-widest text-gray-300'>
                   First Name(Optional)
@@ -25,7 +25,7 @@ const AccountInformation = () => {
                 />
               </div>
             </div>
-            <div className='w-6/12'>
+            <div className='mt-5 w-full md:my-0 xl:w-6/12'>
               <div className='rounded-lg border border-[#202127] bg-[#202127] px-5 py-3'>
                 <h6 className='mb-2 text-sm font-bold tracking-widest text-gray-300'>
                   Last Name(Optional)
@@ -41,8 +41,8 @@ const AccountInformation = () => {
               </div>
             </div>
           </div>
-          <div className='mt-5 flex gap-x-4'>
-            <div className='w-6/12'>
+          <div className='mt-5 gap-x-4 md:flex'>
+            <div className='mt-5 w-full md:my-0 xl:w-6/12'>
               <div className='rounded-lg border border-[#202127] bg-[#202127] px-5 py-3'>
                 <h6 className='mb-2 text-sm font-bold tracking-widest text-gray-300'>
                   Email (required)
@@ -57,7 +57,7 @@ const AccountInformation = () => {
                 />
               </div>
             </div>
-            <div className='w-6/12'>
+            <div className='mt-5 w-full md:my-0 xl:w-6/12'>
               <div className='rounded-lg border border-[#202127] bg-[#202127] px-5 py-3'>
                 <h6 className='mb-2 text-sm font-bold tracking-widest text-gray-300'>
                   Phone number (required)
@@ -97,8 +97,8 @@ const AccountInformation = () => {
               </div>
             </div>
           </div>
-          <div className='mt-5 flex gap-x-4'>
-            <div className='w-6/12'>
+          <div className='mt-5 gap-x-4 md:flex'>
+            <div className='mt-5 w-full md:my-0 xl:w-6/12'>
               <div className='rounded-lg border border-[#202127] bg-[#202127] px-5 py-3'>
                 <h6 className='mb-2 text-sm font-bold tracking-widest text-gray-300'>
                   Location
@@ -137,7 +137,7 @@ const AccountInformation = () => {
                 </div>
               </div>
             </div>
-            <div className='w-6/12'>
+            <div className='mt-5 w-full md:my-0 xl:w-6/12'>
               <div className='rounded-lg border border-[#202127] bg-[#202127] px-5 py-3'>
                 <h6 className='mb-2 text-sm font-bold tracking-widest text-gray-300'>
                   Currency preferred

@@ -36,23 +36,39 @@ const FA = () => {
 
 const Item = ({ icon, title, subTitle }) => {
   return (
-    <div className='mt-7 flex items-center gap-x-4'>
-      <div className='flex flex-1 items-start gap-x-3'>
-        <div className='mt-2 flex items-center gap-x-1 text-2xl text-white'>
-          {icon}
-        </div>
-        <div className=''>
+    <>
+      <div className='mt-7 gap-x-4 sm:hidden'>
+        <div className='flex flex-1 items-start gap-x-3'>
+          <div className='mt-2 flex items-center gap-x-1 text-2xl text-white'>
+            {icon}
+          </div>
           <h4 className='text-lg font-medium text-gray-200'>{title}</h4>
-          <p className='text-sm text-gray-600'>{subTitle}</p>
         </div>
-      </div>
 
-      <div className='w-24'>
-        <button className='w-full cursor-pointer rounded-lg bg-primary-1 px-6 py-3 text-sm text-[#131517]'>
+        <p className='my-3 text-sm text-gray-600'>{subTitle}</p>
+
+        <button className='mx-auto mt-2 block w-full cursor-pointer rounded-lg bg-primary-1 px-6 py-3 text-sm text-[#131517]'>
           Active
         </button>
       </div>
-    </div>
+      <div className='mt-7 hidden items-center gap-x-4 sm:flex'>
+        <div className='flex flex-1 items-start gap-x-3'>
+          <div className='mt-2 flex items-center gap-x-1 text-2xl text-white'>
+            {icon}
+          </div>
+          <div className=''>
+            <h4 className='text-lg font-medium text-gray-200'>{title}</h4>
+            <p className='text-sm text-gray-600'>{subTitle}</p>
+          </div>
+        </div>
+
+        <div className='w-24'>
+          <button className='w-full cursor-pointer rounded-lg bg-primary-1 px-6 py-3 text-sm text-[#131517]'>
+            Active
+          </button>
+        </div>
+      </div>
+    </>
   );
 };
 

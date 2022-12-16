@@ -9,7 +9,7 @@ function NavMenu() {
         <Icon name={'Notification'} value={2} icon={<FaRegCommentAlt />} />
         <Icon name={'Notification'} value={2} icon={<FaRegBell />} />
 
-        <div className='rounded-3xl border px-3 py-3 text-white'>
+        <div className='hidden rounded-3xl border px-3 py-3 text-white sm:block'>
           <p>0xSFw...ASws</p>
         </div>
         <Profile />

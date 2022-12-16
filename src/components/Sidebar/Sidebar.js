@@ -35,7 +35,7 @@ const MENU = [
 
 const Sidebar = () => {
   return (
-    <div className='mt-10'>
+    <div className='mt-10 '>
       <div>
         <div className='mb-10'>
           {MENU.map((item) => (
