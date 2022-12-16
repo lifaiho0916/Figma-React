@@ -35,11 +35,16 @@ const MENU = [
 
 const Sidebar = () => {
   return (
-    <div className='mt-10 '>
+    <div className='mt-10 pb-20'>
       <div>
         <div className='mb-10'>
           {MENU.map((item, index) => (
-            <Item icon={item.icon} name={item.name} active={item.isActive} key={index} />
+            <Item
+              icon={item.icon}
+              name={item.name}
+              active={item.isActive}
+              key={index}
+            />
           ))}
         </div>
         <hr className='border border-gray-700' />

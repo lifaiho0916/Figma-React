@@ -61,7 +61,7 @@ body {
     @apply bg-gradient-to-r from-primary-2 to-primary-1;
   }
   .bg-primary-gradient-2 {
-    @apply bg-gradient-to-r from-primary-1 to-primary-1;
+    @apply bg-gradient-to-l from-[#7ffc8db8] to-[#c6fa56ba];
   }
   .hover\:bg-primary-gradient:hover {
     @apply bg-gradient-to-r from-primary-2 to-primary-1;
