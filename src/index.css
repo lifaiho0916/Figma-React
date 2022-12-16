@@ -1,9 +1,57 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  font-family: 'Eudoxus Sans';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'EudoxusSans';
+
+  src: url('./assets/fonts/eudoxus-sans/EudoxusSans-ExtraLight.ttf');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'EudoxusSans';
+
+  src: url('./assets/fonts/eudoxus-sans/EudoxusSans-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EudoxusSans';
+  src: url('./assets/fonts/eudoxus-sans/EudoxusSans-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EudoxusSans';
+  src: url('./assets/fonts/eudoxus-sans/EudoxusSans-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EudoxusSans';
+  src: url('./assets/fonts/eudoxus-sans/EudoxusSans-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'EudoxusSans';
+  src: url('./assets/fonts/eudoxus-sans/EudoxusSans-ExtraBold.ttf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-edx-sans {
+  font-family: EudoxusSans;
 }
 
 body {
-  background-color:  #131517;
+  font-family: EudoxusSans;
+}
+
+.sidebarMenuItem:hover .iconWrapper {
+  @apply brightness-0;
 }
