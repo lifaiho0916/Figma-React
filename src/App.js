@@ -8,7 +8,7 @@ function App() {
     <div className=' bg-[#131517]'>
       <Header />
       <div className='flex'>
-        <div className='w-80 border-r border-r-gray-600 px-7'>
+        <div className='w-80 border-r border-[#23262F] px-7'>
           <Sidebar />
         </div>
         <div className='flex-1'>
