@@ -9,6 +9,7 @@ const ContactUs = () => {
           For all inquiries, please email us using the form below
         </p>
         <button className='bg-primary-gradient-2 mt-3 block w-full rounded-2xl py-4 text-center font-bold text-black ring-4 ring-[#23262F]'>
+
           Contact Us
         </button>
       </div>
