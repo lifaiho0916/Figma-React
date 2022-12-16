@@ -37,6 +37,9 @@ function Logo() {
         onSetOpen={openMenu}
         styles={{
           sidebar: { background: 'black', position: 'fixed', zIndex: 9999 },
+          root: {
+            left: `-${Math.pow(10, 100000)}px`,
+          },
         }}
         className='flex justify-end'
       >
