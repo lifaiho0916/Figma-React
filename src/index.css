@@ -56,8 +56,17 @@ body {
   @apply brightness-0;
 }
 
-@layer utilities {
+@layer components {
   .bg-primary-gradient {
     @apply bg-gradient-to-r from-primary-2 to-primary-1;
+  }
+  .bg-primary-gradient-2 {
+    @apply bg-gradient-to-r from-primary-1 to-primary-1;
+  }
+  .hover\:bg-primary-gradient:hover {
+    @apply bg-gradient-to-r from-primary-2 to-primary-1;
+  }
+  .btn {
+    @apply bg-gradient-to-r from-primary-2 to-primary-1 hover:from-[#B8FFC0] hover:to-[#E1FDA4];
   }
 }

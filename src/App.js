@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
-    <div className='bg-[#131517]'>
+    <div className='min-h-screen bg-[#131517]'>
       <div className='bg-[#131517] 1.5xl:mx-auto 1.5xl:w-[1440px]'>
         <Header />
         <div className='flex flex-wrap'>

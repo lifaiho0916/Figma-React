@@ -21,7 +21,7 @@ const ResetPassword = () => {
           </div>
 
           <div className='w-48'>
-            <button className='bg-primary-gradient w-full cursor-pointer rounded-lg  px-6 py-3 text-sm text-[#131517] focus:ring-4 focus:ring-primary-1'>
+            <button className='btn w-full cursor-pointer rounded-lg  px-6 py-3 text-sm text-[#131517] focus:ring-4 focus:ring-primary-1'>
               Reset Password
             </button>
           </div>
