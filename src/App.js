@@ -8,10 +8,10 @@ function App() {
     <div className=' bg-[#131517]'>
       <Header />
       <div className='flex flex-wrap'>
-        <div className='hidden border-r border-[#23262F] px-7 xl:block xl:w-3/12'>
+        <div className='hidden border-r border-[#23262F] px-7 xl:block xl:w-3/12 2xl:w-2/12'>
           <Sidebar />
         </div>
-        <div className='w-full xl:w-9/12'>
+        <div className='w-full xl:w-9/12 2xl:w-10/12'>
           <Content />
         </div>
       </div>
