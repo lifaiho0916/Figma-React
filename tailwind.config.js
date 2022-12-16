@@ -9,6 +9,9 @@ module.exports = {
           2: '#C6FA56',
         },
       },
+      screens: {
+        '1.5xl': '1440px',
+      },
     },
   },
   plugins: [],

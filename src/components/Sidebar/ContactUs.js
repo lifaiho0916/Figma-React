@@ -8,9 +8,9 @@ const ContactUs = () => {
         <p className='my-4 text-sm font-medium'>
           For all inquiries, please email us using the form below
         </p>
-        <p className='mt-3 block w-full rounded-2xl bg-primary-1 py-4 text-center font-bold text-black'>
+        <button className='bg-primary-gradient mt-3 block w-full rounded-2xl py-4 text-center font-bold text-black focus:ring-4 focus:ring-primary-1'>
           Contact Us
-        </p>
+        </button>
       </div>
     </div>
   );

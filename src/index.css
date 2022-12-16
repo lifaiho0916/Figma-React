@@ -55,3 +55,9 @@ body {
 .sidebarMenuItem:hover .iconWrapper {
   @apply brightness-0;
 }
+
+@layer utilities {
+  .bg-primary-gradient {
+    @apply bg-gradient-to-r from-primary-2 to-primary-1;
+  }
+}

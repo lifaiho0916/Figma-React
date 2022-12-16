@@ -47,7 +47,7 @@ const Item = ({ icon, title, subTitle }) => {
 
         <p className='my-3 text-sm text-gray-600'>{subTitle}</p>
 
-        <button className='mx-auto mt-2 block w-full cursor-pointer rounded-lg bg-primary-1 px-6 py-3 text-sm text-[#131517]'>
+        <button className='bg-primary-gradient mx-auto mt-2 block w-full cursor-pointer rounded-lg px-6 py-3 text-sm text-[#131517]'>
           Active
         </button>
       </div>
@@ -63,7 +63,7 @@ const Item = ({ icon, title, subTitle }) => {
         </div>
 
         <div className='w-24'>
-          <button className='w-full cursor-pointer rounded-lg bg-primary-1 px-6 py-3 text-sm text-[#131517]'>
+          <button className='bg-primary-gradient w-full cursor-pointer rounded-lg px-6 py-3 text-sm text-[#131517] focus:ring-4 focus:ring-primary-1'>
             Active
           </button>
         </div>
