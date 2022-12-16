@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ResetPassword from './ResetPassword';
 
 const AccountInformation = () => {
+  const [data, setData] = useState({
+    firstName: 'Gabriel',
+    lastName: 'Erickson',
+    email: 'you@gmail.com',
+    phone: '+1',
+    location: 'New York',
+    currency: 'Binance',
+  });
+
+  const changeHandler = (e) => {
+    setData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
+
   return (
     <div className=''>
       <div className='rounded-xl bg-[#18191D] p-4 xl:p-6'>
@@ -17,10 +30,10 @@ const AccountInformation = () => {
                 </h6>
                 <input
                   type='text'
-                  name=''
                   placeholder='Frist Name'
-                  value={'Gabriel'}
-                  onChange={() => {}}
+                  name='firstName'
+                  value={data.firstName}
+                  onChange={changeHandler}
                   id=''
                   className='border-none bg-transparent text-xl text-gray-300 outline-none'
                 />
@@ -33,10 +46,10 @@ const AccountInformation = () => {
                 </h6>
                 <input
                   type='text'
-                  name=''
                   placeholder='Last Name'
-                  value={'Erickson'}
-                  onChange={() => {}}
+                  name='lastName'
+                  value={data.lastName}
+                  onChange={changeHandler}
                   id=''
                   className='border-none bg-transparent text-xl text-gray-300 outline-none'
                 />
@@ -51,10 +64,10 @@ const AccountInformation = () => {
                 </h6>
                 <input
                   type='email'
-                  name=''
+                  name='email'
+                  value={data.email}
+                  onChange={changeHandler}
                   placeholder='Email address'
-                  value={'your@email.com'}
-                  onChange={() => {}}
                   id=''
                   className='border-none bg-transparent text-xl text-gray-300 outline-none'
                 />
@@ -69,10 +82,10 @@ const AccountInformation = () => {
                   <div className='flex-1 pr-2'>
                     <input
                       type='text'
-                      name=''
-                      placeholder='Last Name'
-                      value={'+1'}
-                      onChange={() => {}}
+                      placeholder='Phone number'
+                      name='phone'
+                      value={data.phone}
+                      onChange={changeHandler}
                       id=''
                       className='w-full border-none bg-transparent text-lg text-gray-300 outline-none'
                     />
@@ -111,10 +124,10 @@ const AccountInformation = () => {
                   <div className='flex-1 pr-2'>
                     <input
                       type='text'
-                      name=''
                       placeholder='location'
-                      value={'New York'}
-                      onChange={() => {}}
+                      name='location'
+                      value={data.location}
+                      onChange={changeHandler}
                       id=''
                       className='w-full border-none bg-transparent text-lg text-gray-300 outline-none'
                     />
@@ -151,10 +164,10 @@ const AccountInformation = () => {
                   <div className='flex-1 pr-2'>
                     <input
                       type='text'
-                      name=''
                       placeholder='currency'
-                      value={'Binance'}
-                      onChange={() => {}}
+                      name='currency'
+                      value={data.currency}
+                      onChange={changeHandler}
                       id=''
                       className='w-full border-none bg-transparent text-lg text-gray-300 outline-none'
                     />

@@ -3,7 +3,7 @@ import { FaGoogle, FaMobileAlt } from 'react-icons/fa';
 
 const FA = () => {
   return (
-    <div className='mr-5 mt-10'>
+    <div className='mt-10'>
       <div className='rounded-xl bg-[#18191D] p-6'>
         <h4 className='text-lg font-medium text-gray-200'>2FA</h4>
         <div>
@@ -47,7 +47,7 @@ const Item = ({ icon, title, subTitle }) => {
 
         <p className='my-3 text-sm text-gray-600'>{subTitle}</p>
 
-        <button className='bg-primary-gradient mx-auto mt-2 block w-full cursor-pointer rounded-lg px-6 py-3 text-sm text-[#131517]'>
+        <button className='bg-primary-gradient mx-auto mt-2 block w-full cursor-pointer rounded-lg px-6 py-3 text-sm text-[#131517] '>
           Active
         </button>
       </div>
@@ -63,7 +63,7 @@ const Item = ({ icon, title, subTitle }) => {
         </div>
 
         <div className='w-24'>
-          <button className='bg-primary-gradient w-full cursor-pointer rounded-lg px-6 py-3 text-sm text-[#131517] focus:ring-4 focus:ring-primary-1'>
+          <button className='btn w-full cursor-pointer rounded-lg px-6 py-3 text-sm text-[#131517] focus:ring-4 focus:ring-primary-1'>
             Active
           </button>
         </div>
