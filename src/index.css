@@ -1,9 +1,3 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  font-family: 'Eudoxus Sans';
-}
-
-body {
-  background-color:  #131517;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
