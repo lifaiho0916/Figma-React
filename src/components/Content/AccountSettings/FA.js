@@ -63,7 +63,7 @@ const Item = ({ icon, title, subTitle }) => {
         </div>
 
         <div className='w-24'>
-          <button className='btn w-full cursor-pointer rounded-lg px-6 py-3 text-sm text-[#131517] focus:ring-4 focus:ring-primary-1'>
+          <button className='btn w-full cursor-pointer rounded-lg px-6 py-3 text-sm text-[#131517] '>
             Active
           </button>
         </div>
