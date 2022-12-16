@@ -14,12 +14,3 @@ button {
 button:hover {
     background: linear-gradient(263.76deg, #B8FFC0 -28.53%, #E1FDA4 140.05%);
 }
-
-.header {
-    height: 110px;
-    border-bottom: 1px solid #23262F;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    color: white;
-}

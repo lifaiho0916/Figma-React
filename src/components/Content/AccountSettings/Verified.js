@@ -33,8 +33,8 @@ const Verified = () => {
         <h4 className='text-lg font-medium text-gray-200'>Verified</h4>
         <div className='mt-4'>
           <div>
-            {DATA.map((item) => (
-              <Item icon={item.icon} title={item.title} />
+            {DATA.map((item, index) => (
+              <Item icon={item.icon} title={item.title} key={index} />
             ))}
           </div>
         </div>

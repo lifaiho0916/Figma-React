@@ -38,8 +38,8 @@ const Sidebar = () => {
     <div className='mt-10 '>
       <div>
         <div className='mb-10'>
-          {MENU.map((item) => (
-            <Item icon={item.icon} name={item.name} active={item.isActive} />
+          {MENU.map((item, index) => (
+            <Item icon={item.icon} name={item.name} active={item.isActive} key={index} />
           ))}
         </div>
         <hr className='border border-gray-700' />

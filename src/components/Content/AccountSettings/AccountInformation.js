@@ -20,6 +20,7 @@ const AccountInformation = () => {
                   name=''
                   placeholder='Frist Name'
                   value={'Gabriel'}
+                  onChange={() => {}}
                   id=''
                   className='border-none bg-transparent text-xl text-gray-300 outline-none'
                 />
@@ -35,6 +36,7 @@ const AccountInformation = () => {
                   name=''
                   placeholder='Last Name'
                   value={'Erickson'}
+                  onChange={() => {}}
                   id=''
                   className='border-none bg-transparent text-xl text-gray-300 outline-none'
                 />
@@ -52,6 +54,7 @@ const AccountInformation = () => {
                   name=''
                   placeholder='Email address'
                   value={'your@email.com'}
+                  onChange={() => {}}
                   id=''
                   className='border-none bg-transparent text-xl text-gray-300 outline-none'
                 />
@@ -69,6 +72,7 @@ const AccountInformation = () => {
                       name=''
                       placeholder='Last Name'
                       value={'+1'}
+                      onChange={() => {}}
                       id=''
                       className='w-full border-none bg-transparent text-lg text-gray-300 outline-none'
                     />
@@ -77,7 +81,7 @@ const AccountInformation = () => {
                     <div className='h-9 w-9 rounded-full bg-white'></div>
                     <select
                       id='countries'
-                      class='0 block rounded-lg  bg-transparent text-sm  text-white outline-none'
+                      className='0 block rounded-lg  bg-transparent text-sm  text-white outline-none'
                     >
                       <option value='US' className='bg-gray-800'>
                         US
@@ -110,6 +114,7 @@ const AccountInformation = () => {
                       name=''
                       placeholder='location'
                       value={'New York'}
+                      onChange={() => {}}
                       id=''
                       className='w-full border-none bg-transparent text-lg text-gray-300 outline-none'
                     />
@@ -118,7 +123,7 @@ const AccountInformation = () => {
                     <div className='h-9 w-9 rounded-full bg-white'></div>
                     <select
                       id='countries'
-                      class='0 block rounded-lg  bg-transparent text-sm  text-white outline-none'
+                      className='0 block rounded-lg  bg-transparent text-sm  text-white outline-none'
                     >
                       <option value='US' className='bg-gray-800'>
                         US
@@ -149,6 +154,7 @@ const AccountInformation = () => {
                       name=''
                       placeholder='currency'
                       value={'Binance'}
+                      onChange={() => {}}
                       id=''
                       className='w-full border-none bg-transparent text-lg text-gray-300 outline-none'
                     />
@@ -157,7 +163,7 @@ const AccountInformation = () => {
                     <div className='h-9 w-9 rounded-full bg-white'></div>
                     <select
                       id='countries'
-                      class='0 block rounded-lg  bg-transparent text-sm  text-white outline-none'
+                      className='0 block rounded-lg  bg-transparent text-sm  text-white outline-none'
                     >
                       <option value='US' className='bg-gray-800'>
                         BNB
