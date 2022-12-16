@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
-    <div className='bg-black h-screen'>
+    <div className='h-screen bg-[#131517]'>
       <Header />
       <div className='flex'>
         <div className='w-3/12'>
