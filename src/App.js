@@ -7,11 +7,11 @@ function App() {
   return (
     <div className=' bg-[#131517]'>
       <Header />
-      <div className='flex'>
-        <div className='w-80 border-r border-[#23262F] px-7'>
+      <div className='flex flex-wrap'>
+        <div className='w-3/12 border-r border-[#23262F] px-7'>
           <Sidebar />
         </div>
-        <div className='flex-1'>
+        <div className='w-9/12'>
           <Content />
         </div>
       </div>
