@@ -14,7 +14,7 @@
     "react-sidebar": "^3.0.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://phoenix.logotest.com",
+  "homepage": "https://phoenix1223.logotest.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
