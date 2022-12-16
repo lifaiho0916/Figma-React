@@ -4,7 +4,7 @@ import NavMenu from './NavMenu';
 
 const Header = () => {
   return (
-    <div className='border-b  py-3'>
+    <div className='border-b border-gray-600  '>
       <div className='flex items-center'>
         <Logo />
         <NavMenu />
